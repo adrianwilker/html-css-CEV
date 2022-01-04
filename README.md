@@ -13,4 +13,5 @@ Curso de HTML5 e CSS3 do Curso em Vídeo
   <li><a href="https://adrianwilker.github.io/html-css-CEV/exercicios/desafio008">Desafio 008</a></li>
   <li><a href="https://adrianwilker.github.io/html-css-CEV/exercicios/desafio009">Desafio 009</a></li>
   <li><a href="https://adrianwilker.github.io/html-css-CEV/exercicios/desafio010">Desafio 010</a></li>
+  <li><a href="https://adrianwilker.github.io/html-css-CEV/exercicios/desafio010">Desafio 012</a></li>
 </ul>

@@ -6,21 +6,39 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <style>
-    body {
-      font-family: Arial, Helvetica, sans-serif;
-      text-align: justify;
-      text-indent: 50px;
-      box-shadow: 0.3em 0.3em 1em rgba(0,0,0,0.3);
+    #container {
+      position: relative;
+      height: 96vh;
+      background-color: purple;
+    }
+    #conteudo {
+      position: absolute;
+      height: 200px;
+      width: 400px;
+      background-color: yellow;
+
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+    }
+    div {
+      background-color: blue;
+      height: 100px;
+      width: 100px;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
     }
   </style>
 </head>
 <body>
-  <h1>Trabalhando com fontes</h1>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi aut enim et pariatur quod modi dolorum culpa vel? Officia voluptate sapiente obcaecati saepe, dolores necessitatibus nesciunt cupiditate tempora est qui! Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores eum, magnam quidem accusantium voluptatum, rem perspiciatis illo tempora laudantium porro corrupti libero. At tempore maiores quia nulla esse velit voluptas.</p>
-  <h2>Subtítulo do exercício</h2>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni consequatur inventore praesentium quod sunt quidem esse dolorem blanditiis vitae, pariatur magnam dolorum veniam ex cupiditate sequi similique accusantium consectetur cum? Lorem ipsum dolor sit, amet consectetur adipisicing elit. Et nulla cum autem ratione sed numquam animi consequatur, rem ex, fugiat voluptatibus quasi facere ipsum reiciendis molestiae nobis accusantium sapiente perferendis.</p>
-  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, aut explicabo. Exercitationem quo veritatis reiciendis omnis quis porro enim temporibus, explicabo dolorem iste doloribus amet iusto? Iste corrupti quia, perferendis dicta explicabo molestiae sunt esse. Alias vero officiis inventore culpa adipisci, facilis quis porro earum dolor aut ex enim asperiores ea molestiae, laborum, aperiam voluptas consequuntur blanditiis ad rerum natus. Error, exercitationem quod. Magnam adipisci molestiae enim facilis doloremque ipsa tempora porro soluta repudiandae, repellendus deserunt, provident aperiam delectus rem. Labore animi quos eligendi nemo nesciunt quis totam repudiandae beatae sapiente culpa porro nisi quibusdam, saepe aperiam quasi alias tempora.
-  </p>
-  </p>
+  <section id="container">
+    <article id="conteudo">
+      <div>
+
+      </div>
+    </article>
+  </section>
 </body>
 </html>
